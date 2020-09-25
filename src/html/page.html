@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="portfolio denis fevralev m33071 code cpp java spring">
+    <meta name="description" content="A M33071 group student portfolio page">
+    <title>Страничка-портфолио</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../css/outlines.css" type="text/css" />
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1 class="name">Февралев Денис, M33071</h1>
+
+            <section id="navigation">
+                <h2 class="section-name">Навигация:</h2>
+
+                <nav >
+                    <ul id="nav-list" class="list">
+                        <li>
+                            <a href="#contact-section">Контакты</a>
+                        </li>
+
+                        <li>
+                            <a href="#quote-section">Любимые цитаты</a>
+                        </li>
+
+                        <li>
+                            <a href="#code-section">Мой код</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <section id="contact-section">
+                <h2 class="section-name">Мои контакты:</h2>
+
+                <div id="contacts" class="content">
+                    <ol id="contact-list" class="list">
+                        <li>
+                            <a href="https://www.vk.com/ddstaykt">vk.com</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.github.com/sheensekai">github</a>
+                        </li>
+
+                        <li>
+                            sheensekai@ya.ru
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <section id="quote-section">
+                <h2 class="section-name">Цитатки:</h2>
+
+                <div id="quotes" class="content">
+                    <article>
+                        <p>Как говорил <cite>Альберт Эйнштейн</cite> (а может и не говорил),
+                            <q>смерть - это отсутствие возможности послушать <em>Моцарта</em></q>
+                        </p>
+                    </article>
+
+                    <article>
+                        <p>
+                            <cite>Фёдор Достоевский</cite>
+                        </p>
+
+                        <p>
+                            <q><strong>Счастье</strong> не в счастье, а лишь в его <strong>достижении</strong>.</q>
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="code-section">
+                <h2 class="section-name">Мой код:</h2>
+
+                <div id="code" class="content">
+                    <article class="cpp-code-article">
+                        <h3 class="code-lang-name">C++:</h3>
+                        <div class="code-text">
+                            <pre>
+                                <code id="cpp-code">
+                                    #include "human.h"
+
+                                    Human make_human() {
+                                        return new Human();
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                    </article>
+
+                    <article class="java-code-article">
+                        <h3 class="code-lang-name">Java:</h3>
+                        <div class="code-text">
+                            <pre>
+                                <code id="java-code">
+                                    @GetMapping("/hello")
+                                    public String helloWorldView(Model model) {
+                                        model.addAttribute("currentDate", new java.util.Date());
+                                        return "hello-world";
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                    </article>
+
+                    <article class="python-code-article">
+                        <h3 class="code-lang-name">Python:</h3>
+                        <div class="code-text">
+                            <pre>
+                                <code id="python-code">
+                                    print( (0.1 + 0.1 + 0.1) == 0.3 )
+                                </code>
+                            </pre>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="courses-section">
+                <h2 class="section-name">Курсы, которые я проходил</h2>
+                <div id="courses" class="content">
+                    <dl>
+                        <dt>
+                            <a href="https://compscicenter.ru/courses/comp-networks/nsk/2018-autumn/classes/"
+                              title="Computer Science Center">
+                                Компьютерные сети
+                            </a>
+                        </dt>
+
+                        <dd>
+                            Youtube-плейлист с 14 лекциями по сетям от Computer Science Center (лаб, увы, нет)
+                        </dd>
+
+
+                        <dt>
+                            <a href="https://www.udemy.com/course/spring-hibernate-tutorial/"
+                               title="Udemy">
+                                Spring Framework
+                            </a>
+                        </dt>
+
+                        <dd>
+                            Курс по фреймворку Spring (Java) и его подразделам. Курс платный и на английском, но
+                            ввиду того, что автор разжевывает все по 300 раз и после объяснения еще и пишет весь код с нуля,
+                            курс поймет любой.
+                        </dd>
+
+
+                        <dt>
+                           <a href="https://stepik.org/course/1233">Введение в обработку естественного языка</a>
+                        </dt>
+
+                        <dd>
+                            Было сложно, но мне понравилось.
+                        </dd>
+                    </dl>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

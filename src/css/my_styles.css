@@ -4,7 +4,7 @@ img {
 }
 
 body {
-    background-color: bisque;
+    background-color: #ffe4c4;
 }
 
 blockquote {
@@ -35,15 +35,14 @@ h2 {
 }
 
 .content {
-    font-family: "Bell MT", serif;
+    font-family: "Montserrat", "Arial", sans-serif, serif;
 }
 
-#code-section {
-    width: min-content;
-}
+
 #code-section .code-text {
-    padding: 20px;
-    border: 5px solid purple;
+    padding-left: 20px;
+    border: 5px solid #8BB49E;
+    width: 70%;
 }
 
 header div {
@@ -52,4 +51,17 @@ header div {
 
 section {
     margin-bottom: 50px;
+    margin-left: 10px;
+
+    padding: 25px;
+
+    background-color: #7E96A2;
+    width: 45%;
+
+    border: 3px solid black;
+}
+
+code {
+    font-size: 100%;
+    font-family: "Bell MT", serif;
 }

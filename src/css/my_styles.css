@@ -41,7 +41,7 @@ h2 {
 
 #code-section .code-text {
     padding-left: 20px;
-    border: 5px solid #8BB49E;
+    border: 5px double;
     width: 70%;
 }
 
@@ -55,7 +55,7 @@ section {
 
     padding: 25px;
 
-    background-color: #7E96A2;
+    background-color: #9abfcf;
     width: 45%;
 
     border: 3px solid black;

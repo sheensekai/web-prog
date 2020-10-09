@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="portfolio denis fevralev m33071 code cpp java spring">
     <meta name="description" content="A M33071 group student portfolio page">
-    <title>Страничка-портфолио</title>
+    <title>Web prog</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="../css/my_styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
     <header>
+
         <div>
             <h1 class="name">Февралев Денис, M33071</h1>
 
@@ -17,7 +19,7 @@
                 <h2 class="section-name">Навигация:</h2>
 
                 <nav >
-                    <ul id="nav-list" class="list">
+                    <ul id="nav-list" class="list another-class">
                         <li>
                             <a href="#contact-section">Контакты</a>
                         </li>
@@ -28,6 +30,10 @@
 
                         <li>
                             <a href="#code-section">Мой код</a>
+                        </li>
+
+                        <li>
+                            <a href="#courses-section">Курсы</a>
                         </li>
                     </ul>
                 </nav>
@@ -55,7 +61,7 @@
                             sheensekai@ya.ru
                         </li>
                         <li>
-                            89811553780
+                            89815551333
                         </li>
                     </ol>
                 </div>
@@ -63,77 +69,99 @@
 
             <section id="quote-section">
                 <h2 class="section-name">Цитатки:</h2>
+    <div id="quote" class="content">
+        <ul>
+           <li>
+               <article>
+                   <p>Как говорил <cite>Альберт Эйнштейн</cite> (а может и не говорил):
+                       <q>смерть - это отсутствие возможности послушать <em>Моцарта</em></q>
+                   </p>
+               </article>
+           </li>
+            <li>
+                <article>
+                    <p>
+                        <cite>Фёдор Достоевский</cite>
+                    </p>
 
-                <div id="quotes" class="content">
-                    <article>
-                        <p>Как говорил <cite>Альберт Эйнштейн</cite> (а может и не говорил),
-                            <q>смерть - это отсутствие возможности послушать <em>Моцарта</em></q>
-                        </p>
-                    </article>
-
-                    <article>
-                        <p>
-                            <cite>Фёдор Достоевский</cite>
-                        </p>
-
-                        <p>
-                            <q><strong>Счастье</strong> не в счастье, а лишь в его <strong>достижении</strong>.</q>
-                        </p>
-                    </article>
-                </div>
+                    <p>
+                        <q><strong>Счастье</strong> не в счастье, а лишь в его <strong>достижении</strong>.</q>
+                    </p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <blockquote>
+                        <p>Есть люди, от которых что-то остаётся,</p>
+                        <p>а есть люди, от которых не остаётся ничего.</p>
+                        <cite>Дмитрий Глуховский</cite>
+                    </blockquote>
+                </article>
+            </li>
+        </ul>
+</div>
             </section>
 
             <section id="code-section">
                 <h2 class="section-name">Мой код:</h2>
 
                 <div id="code" class="content">
-                    <article class="cpp-code-article">
-                        <h3 class="code-lang-name">C++:</h3>
-                        <div class="code-text">
+                    <ul class="list">
+                        <li>
+                            <article class= "cpp-code-article code">
+
+                                <h3 class="code-lang-name">C++</h3>
+                                <div class="code-text">
                             <pre>
                                 <code id="cpp-code">
-                                    #include "human.h"
+#include "human.h"
 
-                                    Human make_human() {
-                                        return new Human();
-                                    }
+Human make_human() {
+    return new Human();
+}
                                 </code>
                             </pre>
-                        </div>
-                    </article>
+                                </div>
+                            </article>
+                        </li>
 
-                    <article class="java-code-article">
-                        <h3 class="code-lang-name">Java:</h3>
-                        <div class="code-text">
+                        <li>
+                            <article class="java-code-article code">
+                                <h3 class="code-lang-name">Java</h3>
+                                <div class="code-text">
                             <pre>
                                 <code id="java-code">
-                                    @GetMapping("/hello")
-                                    public String helloWorldView(Model model) {
-                                        model.addAttribute("currentDate", new java.util.Date());
-                                        return "hello-world";
-                                    }
+@GetMapping("/hello")
+public String helloWorldView(Model model) {
+    model.addAttribute("currentDate", new java.util.Date());
+    return "hello-world";
+}
                                 </code>
                             </pre>
-                        </div>
-                    </article>
+                                </div>
+                            </article>
+                        </li>
 
-                    <article class="python-code-article">
-                        <h3 class="code-lang-name">Python:</h3>
-                        <div class="code-text">
+                        <li>
+                            <article class="python-code-article code">
+                                <h3 class="code-lang-name">Python</h3>
+                                <div class="code-text">
                             <pre>
                                 <code id="python-code">
-                                    print( (0.1 + 0.1 + 0.1) == 0.3 )
+print( (0.1 + 0.1 + 0.1) == 0.3 )
                                 </code>
                             </pre>
-                        </div>
-                    </article>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
                 </div>
             </section>
 
             <section id="courses-section">
                 <h2 class="section-name">Курсы, которые я проходил</h2>
                 <div id="courses" class="content">
-                    <dl>
+                    <dl class="list">
                         <dt>
                             <a href="https://compscicenter.ru/courses/comp-networks/nsk/2018-autumn/classes/"
                               title="Computer Science Center">
@@ -178,7 +206,11 @@
     </main>
 
     <footer>
-
+        <section id="other-section">
+            <div id="other" class="content">
+                <img src="../../resources/img/jigglypuff.png" alt="Это джигглипуф">
+            </div>
+        </section>
     </footer>
 
 </body>

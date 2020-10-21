@@ -35,9 +35,14 @@ h2 {
     margin-bottom: 5px;
 }
 
-#code-section .code-text {
+
+#code-section .code-text, #quote-section .list li {
     padding: 0 5px;
     border: 5px double;
+    margin-bottom: 10px;
+}
+
+#quote-section .list li {
 }
 
 header div {

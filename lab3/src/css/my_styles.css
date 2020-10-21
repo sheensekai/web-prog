@@ -1,0 +1,64 @@
+img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+body {
+    background-color: #ffe4c4;
+}
+
+blockquote {
+    margin: initial;
+}
+
+ul, ol {
+    list-style-type: square;
+}
+
+#code-section .list {
+    list-style-type: none;
+}
+
+#quote li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+h2 {
+    font-family: Calibri, serif;
+}
+
+.content {
+    font-family: "Montserrat", "Arial", sans-serif, serif;
+}
+
+
+#code-section .code-text {
+    padding-left: 20px;
+    border: 5px double;
+    width: 70%;
+}
+
+header div {
+    margin-bottom: 100px;
+}
+
+section {
+    margin-bottom: 50px;
+    margin-left: 10px;
+
+    padding: 25px;
+
+    background-color: #9abfcf;
+    width: 45%;
+
+    border: 3px solid black;
+}
+
+code {
+    font-size: 100%;
+    font-family: "Bell MT", serif;
+}

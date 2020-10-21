@@ -80,9 +80,3 @@ dd {
 #quote, #code, #courses dl dd {
     font-weight: 500;
 }
-
-#nav-list li {
-    float: left;
-    width: 25%;
-    text-align: center;
-}

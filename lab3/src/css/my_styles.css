@@ -31,6 +31,10 @@ h2 {
     list-style-type: none;
 }
 
+.list li {
+    margin-bottom: 5px;
+}
+
 #code-section .code-text {
     padding: 0 5px;
     border: 5px double;

@@ -66,6 +66,10 @@ code {
     font-family: "Bell MT", serif;
 }
 
+dd {
+    margin-bottom: 5px;
+}
+
 #quote, #code, #courses dl dd {
     font-weight: 500;
 }

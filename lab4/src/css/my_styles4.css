@@ -1,4 +1,4 @@
-img {
+.jiggly {
     width: 200px;
     height: 200px;
     position: fixed;
@@ -36,7 +36,7 @@ h2 {
 }
 
 
-#code-section .code-text, #quote-section .list li {
+#code-section .code-text, #quote-section .list li, .book-item {
     padding: 10px;
     border: 5px double;
     margin-bottom: 10px;
@@ -53,7 +53,7 @@ header div {
     margin-bottom: 100px;
 }
 
-section {
+section, .books {
     margin-bottom: 10px;
     padding: 25px;
     margin-left: auto;
@@ -99,15 +99,40 @@ main {
     border: black 2px solid;
     background-color: #ec79be;
     padding: 15px;
+}
+
+.books .book-pic {
+    width: 80px;
+    height: 130px;
+}
+
+.book-item {
+    width: 30%;
+    height: 150px;
+}
+
+.flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: start;
+}
+
+.books .flex {
+    justify-content: space-between;
+}
+
+.books .flex {
+    flex-wrap: wrap;
+}
+
+.book-pic-container {
+    float: left;
+    margin-right: 10px;
 }
 
 .left, .right {
     margin: 5px;
-    width: 40%;
+    width: auto;
 }
 
 .clearfix {

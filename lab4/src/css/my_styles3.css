@@ -54,11 +54,11 @@ header div {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: auto;
 
     background-color: #9abfcf;
     border: 3px solid black;
@@ -91,18 +91,23 @@ dd {
     text-align: center;
 }
 
+main {
+    margin: 10px;
+}
+
 .main_div {
     border: black 2px solid;
     background-color: #ec79be;
-    margin: 10px;
-    padding-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
 }
 
-.left, .right{
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.left, .right {
+    margin: 5px;
+    width: 40%;
 }
 
 .clearfix {

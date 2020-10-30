@@ -58,7 +58,7 @@ section {
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: auto;
 
     background-color: #9abfcf;
     border: 3px solid black;
@@ -91,18 +91,25 @@ dd {
     text-align: center;
 }
 
+main {
+    margin: 10px;
+}
+
 .main_div {
     border: black 2px solid;
     background-color: #ec79be;
-    margin: 10px;
-    padding-top: 20px;
+    padding: 15px;
 }
 
-.left, .right{
+.left {
     float: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 5px;
+    width: 20%;
+}
+
+.right{
+    float: right;
+    width: 40%;
 }
 
 .clearfix {

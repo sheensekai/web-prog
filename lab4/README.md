@@ -1,8 +1,13 @@
-Состояние перед изменениями в папке "lab1, lab2"
+Состояние перед изменениями в папке "lab3"
 
-HTML-страница: [src/html/page.html](src/html/page.html)
+float:
 
-Или так: [https://sheensekai.github.io/web-prog/lab3/src/html/page.html](https://sheensekai.github.io/web-prog/lab3/src/html/page.html)
-CSS-файл: [src/css/my_styles.css](src/css/my_styles.css)
+[Первая страничка](https://sheensekai.github.io/web-prog/lab4/src/html/page.html)
 
-Добавил:
+[Вторая страничка](https://sheensekai.github.io/web-prog/lab4/src/html/page2.html)
+
+flex:
+
+[Третья страничка](https://sheensekai.github.io/web-prog/lab4/src/html/page3.html)
+
+[Четвертая страничка](https://sheensekai.github.io/web-prog/lab4/src/html/page4.html)

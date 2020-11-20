@@ -1,0 +1,117 @@
+img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+body {
+    background-color: #ffe4c4;
+}
+
+blockquote {
+    margin: initial;
+}
+
+ul, ol {
+    list-style-type: square;
+}
+
+h2 {
+    font-family: Calibri, serif;
+}
+
+.content {
+    font-family: "Montserrat", "Arial", sans-serif, serif;
+}
+
+.list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+
+#code-section .code-text, #quote-section .list li {
+    padding: 10px;
+    border: 5px double;
+    margin-bottom: 10px;
+}
+
+#code-section .code-text {
+    font-size: 125%
+}
+#code-section .code-text pre {
+    margin: 0;
+}
+
+header div {
+    margin-bottom: 100px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+    background-color: #9abfcf;
+    border: 3px solid black;
+}
+
+#navigation {
+    width: 45%;
+}
+
+.section-name {
+    text-align: center;
+}
+
+code {
+    font-size: 100%;
+    font-family: "Bell MT", serif;
+}
+
+dd {
+    margin-bottom: 5px;
+}
+
+#quote, #code, #courses dl dd {
+    font-weight: 500;
+}
+
+#nav-list li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+}
+
+.main_div {
+    border: black 2px solid;
+    background-color: #ec79be;
+    padding: 15px;
+}
+
+.left {
+    float: left;
+    margin-left: 5px;
+    width: 20%;
+}
+
+.right{
+    float: right;
+    width: 40%;
+}
+
+.clearfix {
+    clear: both;
+}

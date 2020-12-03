@@ -16,12 +16,11 @@
             <h1 class="name">Февралев Денис, M33071</h1>
 
             <section id="navigation">
+                    <button id="contact-button">
+                        Контакты
+                    </button>
                 <nav>
                     <ul id="nav-list" class="list another-class">
-                        <li>
-                            <a href="#contact-section">Контакты</a>
-                        </li>
-
                         <li>
                             <a href="#quote-section">Любимые цитаты</a>
                         </li>
@@ -178,56 +177,62 @@ print( (0.1 + 0.1 + 0.1) == 0.3 )
                                 </ul>
                             </div>
                         </section>
-
-                        <section id="contact-section">
-                            <h2 class="section-name">Мои контакты</h2>
-
-                            <div id="contacts" class="content">
-                                <ol id="contact-list" class="list">
-                                    <li>
-                                        <a href="https://www.vk.com/ddstaykt">vk.com</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.github.com/sheensekai">github</a>
-                                    </li>
-
-                                    <li>
-                                        sheensekai@ya.ru
-                                    </li>
-                                    <li>
-                                        89815551333
-                                    </li>
-                                </ol>
-                            </div>
-                        </section>
                     </div>
                     <div class="clearfix">
                     </div>
                 </div>
             </div>
             <div class="books">
-                <div class="flex">
-                    <div class="book-item" id="first-book">
-                        <div class="book-pic-container">
-                            <img id="first-book-img" src="../../resources/img/books/emptiness.jpg" alt="Чапаев и Пустота" class="book-pic"/>
-                        </div>
-                        <span id="first-book-desc" class="book-description">
+                <div>
+                    <div class="two-books">
+                        <div class="book-item" id="first-book">
+                            <div class="book-pic-container">
+                                <img id="first-book-img" src="../../resources/img/books/1.jpg" alt="Чапаев и Пустота" class="book-pic"/>
+                            </div>
+                            <span id="first-book-desc" class="book-description">
                                Читатель-интерпретатор остается с голой веревкой, то есть наедине с той самой пустотой, которая является местом действия и одновременно главным героем произведения.
                         </span>
+                        </div>
+
+                        <div class="book-item" id="second-book">
+                            <div class="book-pic-container">
+                                <img id="second-book-img" src="../../resources/img/books/2.jpg" alt="Степной волк" class="book-pic"/>
+                            </div>
+                            <span id="second-book-desc" class="book-description">
+                            В глубине души Иван Ильич знал, что он умирает, но он не только не привык к этому, но просто не понимал, никак не мог понять этого.
+                        </span>
+                        </div>
                     </div>
 
-                    <div class="book-item" id="second-book">
-                        <div class="book-pic-container">
-                            <img id="second-book-img" src="../../resources/img/books/steppenwolf.jpg" alt="Степной волк" class="book-pic"/>
-                        </div>
-                        <span id="second-book-desc" class="book-description">
-                            Мир лежит в глубоком снегу.<br> Ворон на ветке бьет крылами,<br> Я, Степной волк, все бегу и бегу,<br> Но не вижу нигде ни зайца, ни лани!
-                        </span>
-                    </div>
+                    <button id="book-button">Дальше</button>
+
                 </div>
             </div>
         </div>
+
+        <section id="contact-section">
+            <button id="contact-close-button">Закрыть</button>
+            <h2 class="section-name">Мои контакты</h2>
+
+            <div id="contacts" class="content">
+                <ol id="contact-list" class="list">
+                    <li>
+                        <a href="https://www.vk.com/ddstaykt">vk.com</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.github.com/sheensekai">github</a>
+                    </li>
+
+                    <li>
+                        sheensekai@ya.ru
+                    </li>
+                    <li>
+                        89815551333
+                    </li>
+                </ol>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -237,6 +242,7 @@ print( (0.1 + 0.1 + 0.1) == 0.3 )
     </footer>
 
     <script src="../js/lab5.js"></script>
+    <script src="../js/lab6.js"></script>
 
 </body>
 </html>

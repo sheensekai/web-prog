@@ -145,32 +145,23 @@ main {
 .two-books {
     width: 33%;
     height: 100%;
-    position: absolute;
-    left: 35%;
-}
-
-
-#tb-2, #tb-3 {
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #contact-section {
-    z-index: 3;
     display: none;
     position: fixed;
     top: 30%;
     left: 30%;
 }
 
-#contact-close-button {
-}
-
 .books {
     height: 390px;
 }
 
-#book-button {
-    position: relative;
-    left: 47%;
-    top: 380px;
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

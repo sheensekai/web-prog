@@ -1,3 +1,3 @@
-[js-код решения](https://github.com/sheensekai/web-prog/blob/master/lab5/src/js/code.js)
+[js-код решения](https://github.com/sheensekai/web-prog/blob/master/lab6/src/js/lab6.js)
 
-[выполнение в консольке](https://sheensekai.github.io/web-prog/lab5/src/html/page4.html)
+[страничка](https://sheensekai.github.io/web-prog/lab6/src/html/page4.html)
